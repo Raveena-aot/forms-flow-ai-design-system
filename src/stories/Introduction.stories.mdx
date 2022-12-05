@@ -266,7 +266,85 @@ A step shows the completion status of an activity in a series of activities.
 [TODO]
 
 ## Modals
-[TODO]
+The Modal plugin is a dialog box/popup window that is displayed on top of the current page.
+
+<div class="formsflow-d-flex">
+<a class="buttonformsflow" href="#passive"><button class="formsflow-btn formsflow-btn-primary">Passive</button></a>
+ <a class="buttonformsflow" href="#transactional"><button class="formsflow-btn formsflow-btn-primary">Transactional</button></a>
+ <a class="buttonformsflow" href="#critical"><button class="formsflow-btn formsflow-btn-primary">Critical</button></a>
+</div>
+
+<div id="passive" class="formsflow-modal-overlay">
+    <div class="formsflow-modal">
+        <h6 class="formsflow-modal-label">Modal Label</h6>
+        <div class="formsflow-modal-content">
+         <div class="formsflow-modal-header">
+            <h3 class="formsflow-modal-title">This is the modal heading</h3>
+        </div>
+        <a class="close" href="#"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button></a>
+        <div class="formsflow-modal-body">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+  magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+ <div id="transactional" class="formsflow-modal-overlay">
+    <div class="formsflow-modal">
+      <h6 class="formsflow-modal-label">Modal Label</h6>
+      <div class="formsflow-modal-content">
+        <div class="formsflow-modal-header">
+          <h3 class="formsflow-modal-title">This is the modal heading</h3>
+          <a class="close" href="#"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button></a>
+        </div>
+        <div class="formsflow-modal-body">
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore
+            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+            kasd
+            gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="formsflow-modal-footer">
+          <button class="formsflow-btn formsflow-btn-secondary" data-dismiss="modal">Button Label</button>
+          <button class="formsflow-btn formsflow-btn-primary">Button Label</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div id="critical" class="formsflow-modal-overlay">
+  <div class="formsflow-modal">
+    <h6 class="formsflow-modal-label">Modal Label</h6>
+    <div class="formsflow-modal-content">
+      <div class="formsflow-modal-header">
+        <h3 class="formsflow-modal-title">This is the modal heading</h3>
+      </div>
+      <a class="close" href="#"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button></a>
+      <div class="formsflow-modal-body">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore
+          magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+          kasd
+          gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="formsflow-modal-footer">
+        <button class="formsflow-btn formsflow-btn-secondary" data-dismiss="modal">Button Label</button>
+        <button class="formsflow-btn formsflow-btn-danger">Critical Action</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 ## Progress Indicators
 progress bar indicates that the user's request has been received and the application is making progress toward completing the requested action.

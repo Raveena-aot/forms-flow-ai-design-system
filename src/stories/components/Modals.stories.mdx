@@ -1,0 +1,172 @@
+import { Meta } from '@storybook/addon-docs';
+
+
+<Meta title="Components/Modals" parameters={{
+    viewMode: 'docs',
+    previewTabs: { 
+      canvas: { hidden: true } 
+     },
+  }} />
+
+## Modals
+The Modal plugin is a dialog box/popup window that is displayed on top of the current page.
+
+### Passive
+ <div class="formsflow-modalbox">
+    <a href="#passive"><button class="formsflow-btn formsflow-btn-primary">Click here</button></a>
+</div>
+<div id="passive" class="formsflow-modal-overlay">
+    <div class="formsflow-modal">
+        <h6 class="formsflow-modal-label">Modal Label</h6>
+        <div class="formsflow-modal-content">
+         <div class="formsflow-modal-header">
+            <h3 class="formsflow-modal-title">This is the modal heading</h3>
+        </div>
+        <a href="#"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button></a>
+        <div class="formsflow-modal-body">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+  magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+```html dark
+ <div class="formsflow-modalbox">
+    <a href="#passive"><button class="formsflow-btn formsflow-btn-primary">Click here</button></a>
+</div>
+<div id="passive" class="formsflow-modal-overlay">
+    <div class="formsflow-modal">
+        <h6 class="formsflow-modal-label">Modal Label</h6>
+        <div class="formsflow-modal-content">
+         <div class="formsflow-modal-header">
+            <h3 class="formsflow-modal-title">This is the modal heading</h3>
+        </div>
+        <a class="close" href="#"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button></a>
+        <div class="formsflow-modal-body">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+  magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    </div>
+```
+
+ ### Transactional
+<div class="formsflow-modalbox">
+    <a href="#transactional"><button class="formsflow-btn formsflow-btn-primary">Click here</button></a>
+</div>
+
+<div id="transactional" class="formsflow-modal-overlay">
+  <div class="formsflow-modal">
+  <h6 class="formsflow-modal-label">Modal Label</h6>
+  <div class="formsflow-modal-content">
+  <div class="formsflow-modal-header">
+      <h3 class="formsflow-modal-title">This is the modal heading</h3>
+      <a href="#"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button></a>
+    </div>
+    <div class="formsflow-modal-body">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+  magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="formsflow-modal-footer">
+      <button class="formsflow-btn formsflow-btn-secondary" data-dismiss="modal">Button Label</button>
+      <button class="formsflow-btn formsflow-btn-primary">Button Label</button>
+    </div>
+  </div>
+</div>
+</div>
+
+```html dark
+<div class="formsflow-modalbox">
+    <a href="#transactional"><button class="formsflow-btn formsflow-btn-primary">Click here</button></a>
+</div>
+
+<div id="transactional" class="formsflow-modal-overlay">
+  <div class="formsflow-modal">
+  <h6 class="formsflow-modal-label">Modal Label</h6>
+  <div class="formsflow-modal-content">
+  <div class="formsflow-modal-header">
+      <h3 class="formsflow-modal-title">This is the modal heading</h3>
+      <a class="close" href="#"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button></a>
+    </div>
+    <div class="formsflow-modal-body">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+  magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="formsflow-modal-footer">
+      <button class="formsflow-btn formsflow-btn-secondary" data-dismiss="modal">Button Label</button>
+      <button class="formsflow-btn formsflow-btn-primary">Button Label</button>
+    </div>
+  </div>
+</div>
+</div>
+```
+<br/>
+
+
+ ### Critical
+<div class="formsflow-modalbox">
+  <a href="#critical"><button class="formsflow-btn formsflow-btn-primary">Click here</button></a>
+</div>
+<div id="critical" class="formsflow-modal-overlay">
+  <div class="formsflow-modal">
+    <h6 class="formsflow-modal-label">Modal Label</h6>
+    <div class="formsflow-modal-content">
+    <div class="formsflow-modal-header">
+       <h3 class="formsflow-modal-title">This is the modal heading</h3>
+    </div>
+    <a class="close" href="#"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button></a>
+    <div class="formsflow-modal-body">
+     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+  magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="formsflow-modal-footer">
+      <button class="formsflow-btn formsflow-btn-secondary" data-dismiss="modal">Button Label</button>
+      <button class="formsflow-btn formsflow-btn-danger">Critical Action</button>
+    </div>
+  </div>
+</div>
+</div>
+
+```html dark
+<div class="formsflow-modalbox">
+  <a href="#critical"><button class="formsflow-btn formsflow-btn-primary">Click here</button></a>
+</div>
+<div id="critical" class="formsflow-modal-overlay">
+  <div class="formsflow-modal">
+    <h6 class="formsflow-modal-label">Modal Label</h6>
+    <div class="formsflow-modal-content">
+    <a class="close" href="#"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button></a>
+    <div class="formsflow-modal-header">
+       <h3 class="formsflow-modal-title">This is the modal heading</h3>
+    </div>
+    <div class="formsflow-modal-body">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+  magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="formsflow-modal-footer">
+      <button class="formsflow-btn formsflow-btn-secondary" data-dismiss="modal">Button Label</button>
+      <button class="formsflow-btn formsflow-btn-danger">Critical Action</button>
+    </div>
+  </div>
+</div>
+</div>
+```
